@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/in"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bgg"
+        android:layout_width="match_parent"
+        android:layout_height="125dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:background="@drawable/an"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="6dp"
+                android:src="@drawable/az"
+                android:layout_width="100dp"
+                android:layout_height="200dp"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="9dp"
+                    android:text="Lili Rehmawati "
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginLeft="9dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="STE202202747"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ar"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="  PROFIL"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="18dp"
+        android:paddingTop="2dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mahasiswa STMIK WIDYA UTAMA Jurusan Sistem Informasi."
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_width="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:drawableLeft="@drawable/ar"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="B I O D A T A"/>
+        <LinearLayout
+            android:layout_marginTop="7dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/g"
+                android:background="@drawable/bunder"
+                android:layout_width="155dp"
+                android:layout_height="68dp"
+                android:orientation="vertical">
+                <TextView
+
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@drawable/hs"
+                    android:layout_marginLeft="7dp"
+                    android:textColor="@color/white"
+                    android:text=" Tanggal Lahir "
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:text="15 Febuari 2004  "
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/g"
+                android:background="@drawable/bunder"
+                android:layout_width="155dp"
+                android:layout_height="68dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@drawable/ll"
+                    android:layout_marginLeft="7dp"
+                    android:textColor="@color/white"
+                    android:text=" Alamat "
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginTop="6dp"
+                    android:text="Purbalingga"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="12dp"
+                    android:textColor="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/g"
+                android:background="@drawable/bunder"
+                android:layout_width="155dp"
+                android:layout_height="68dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@drawable/sch"
+                    android:layout_marginLeft="7dp"
+                    android:textColor="@color/white"
+                    android:text=" Pendidikan "
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:text="S1 Sistem Informasi "
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/g"
+                android:background="@drawable/bunder"
+                android:layout_width="155dp"
+                android:layout_height="68dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@drawable/bb"
+                    android:layout_marginLeft="7dp"
+                    android:textColor="@color/white"
+                    android:text=" Hobi "
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginTop="8dp"
+                    android:text="Menulis Cerita"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
